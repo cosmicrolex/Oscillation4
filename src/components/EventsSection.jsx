@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import Faqs from './Faqs';
-import coderelay2 from '../assets/Code Relay 2.0.jpg';
-import hack from '../assets/hackathon.jpg';
-import valo from '../assets/valorant.jpg';
-import treasure from '../assets/treasure hunt.jpg';
-import proj from '../assets/project presentation.jpg';
-import bgmi from '../assets/bgmi.jpg';
-import carrom from '../assets/carrom.jpg';
-import codeandpray from '../assets/Code and Pray.jpg';
-import dumbcharades from '../assets/Dumb Charades.jpg';
-import aivisionary from '../assets/AI Visionary.jpg';
-import ludo from '../assets/ludo.jpg';
+import coderelay2 from '../assets/Code Relay 2.0 (2).jpg';
+import hack from '../assets/hackathon (1).jpg';
+import valo from '../assets/valorant (1).jpg';
+import treasure from '../assets/treasure hunt (1).jpg';
+import proj from '../assets/project presentation (1).jpg';
+import bgmi from '../assets/bgmi (1).jpg';
+import carrom from '../assets/carrom (1).jpg';
+import codeandpray from '../assets/Code and Pray (1).jpg';
+import dumbcharades from '../assets/Dumb Charades (1).jpg';
+import aivisionary from '../assets/AI Visionary (1).jpg';
+import ludo from '../assets/ludo (1).jpg';
 import siddhesh from '..//assets/siddhesh.jpeg'
 import pranav from '..//assets/panna.png';
 import kshitij from '..//assets/Kshitij.png';
@@ -256,7 +256,7 @@ const App = () => {
         time: "11:00 AM - 6:00 PM",
         venue: "E-Sports Arena, CCC Building",
         registrationDeadline: "April 8, 2025",
-        requirements: "Valorant account (minimum level 20), Discord for communication",
+        requirements: "",
         teamSize: "4 members per team",
         Prize : "1st and 2nd winner would get coupons worth 1200rs",
         prizes: [
@@ -319,7 +319,7 @@ const App = () => {
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
-        requirements: "Knowledge of Java/Python/C++",
+        requirements: "",
         teamSize: "4 members per team",
         Prize : "1st and 2nd winner would get coupons worth 1200rs",
         prizes: [
@@ -382,7 +382,7 @@ const App = () => {
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
-        requirements: "Knowledge of Java/Python/C++",
+        requirements: "",
         teamSize: "4 members per team",
         
         prizes: [
@@ -447,7 +447,7 @@ const App = () => {
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
-        requirements: "Knowledge of Java/Python/C++",
+        requirements: "",
         teamSize: "2 members per team",
         
         prizes: [
@@ -510,7 +510,7 @@ const App = () => {
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
-        requirements: "Knowledge of Java/Python/C++",
+        requirements: "",
         teamSize: "1 member per team",
         
         prizes: [
@@ -574,7 +574,7 @@ const App = () => {
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
-        requirements: "Knowledge of Java/Python/C++",
+        requirements: "",
         teamSize: "3 members per team",
         Prize : "1st and 2nd winner would get coupons worth 1200rs",
         prizes: [
@@ -637,7 +637,7 @@ const App = () => {
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
-        requirements: "Knowledge of Java/Python/C++",
+        requirements: "",
         teamSize: "1 member per team",
         
         prizes: [
@@ -703,7 +703,7 @@ const App = () => {
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
-        requirements: "Knowledge of Java/Python/C++",
+        requirements: "",
         
         teamSize: "4 members per team",
         
