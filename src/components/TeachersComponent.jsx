@@ -24,7 +24,7 @@ const TeachersComponent = () => {
   // Teacher data
   const teachers = [
     {
-      name: "Dr. Suwarna Bhise",
+      name: "Dr. Suvarna Bhise",
       role: "ISF Staff Co-Ordinator",
       imageSrc: suvarnamam // Replace with actual image path
     },

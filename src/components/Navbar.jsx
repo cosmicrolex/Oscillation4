@@ -73,10 +73,10 @@ const Navbar = () => {
         <div className={`absolute bottom-8 right-8 flex space-x-6 transition-all duration-500 ${
           isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`} style={{ transitionDelay: '700ms' }}>
-          {['Facebook', 'Instagram', 'Youtube'].map((social, index) => (
+          {['Twitch', 'Instagram'].map((social, index) => (
             <a 
               key={index}
-              href={`https://${social.toLowerCase()}.com`} 
+              href={social === 'Instagram' ? 'https://instagram.com/oscillation_2025' : `https://${social.toLowerCase()}.com`}  
               className="text-white hover:text-indigo-300 transition-colors"
               target="_blank"
               rel="noopener noreferrer"

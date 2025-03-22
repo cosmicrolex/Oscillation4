@@ -54,7 +54,7 @@ const App = () => {
       details: {
         date: "April 3-4, 2025",
         time: "9:00 AM - 9:00 AM (24 hours)",
-        venue: "Main Auditorium",
+        venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 1, 2025",
         requirements: "Laptop, charger, valid ID, and pre-installed development tools",
         teamSize: "3-4 members per team",
@@ -117,11 +117,11 @@ const App = () => {
       details: {
         date: "April 3, 2025",
         time: "10:00 AM - 2:00 PM",
-        venue: "Computer Lab 1",
+        venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
         Prize: "1st and 2nd winner would get coupons worth 1200rs",
-        teamSize: "2 members per team",
+        teamSize: "2-4 members per team",
         prizes: [
           { place: "1st Place", amount: "₹1000" },
           { place: "2nd Place", amount: "₹400" },
@@ -257,7 +257,7 @@ const App = () => {
         venue: "E-Sports Arena, CCC Building",
         registrationDeadline: "April 8, 2025",
         requirements: "Valorant account (minimum level 20), Discord for communication",
-        teamSize: "5 members per team",
+        teamSize: "4 members per team",
         Prize : "1st and 2nd winner would get coupons worth 1200rs",
         prizes: [
           { place: "1st Place", amount: "₹1500" },
@@ -317,10 +317,10 @@ const App = () => {
       details: {
         date: "April 3, 2025",
         time: "10:00 AM - 2:00 PM",
-        venue: "Computer Lab 1",
+        venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
-        teamSize: "2 members per team",
+        teamSize: "4 members per team",
         Prize : "1st and 2nd winner would get coupons worth 1200rs",
         prizes: [
           { place: "1st Place", amount: "₹1500" },
@@ -380,10 +380,10 @@ const App = () => {
       details: {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
-        venue: "Computer Lab 1",
+        venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
-        teamSize: "2 members per team",
+        teamSize: "4 members per team",
         
         prizes: [
           { place: "1st Place", amount: "₹1000" },
@@ -445,7 +445,7 @@ const App = () => {
       details: {
         date: "April 3, 2025",
         time: "10:00 AM - 2:00 PM",
-        venue: "Computer Lab 1",
+        venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
         teamSize: "2 members per team",
@@ -508,10 +508,10 @@ const App = () => {
       details: {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
-        venue: "Computer Lab 1",
+        venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
-        teamSize: "2 members per team",
+        teamSize: "1 member per team",
         
         prizes: [
           { place: "1st Place", amount: "₹500" },
@@ -572,10 +572,10 @@ const App = () => {
       details: {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
-        venue: "Computer Lab 1",
+        venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
-        teamSize: "2 members per team",
+        teamSize: "3 members per team",
         Prize : "1st and 2nd winner would get coupons worth 1200rs",
         prizes: [
           { place: "1st Place", amount: "₹800" },
@@ -635,10 +635,10 @@ const App = () => {
       details: {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
-        venue: "Computer Lab 1",
+        venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
-        teamSize: "2 members per team",
+        teamSize: "1 member per team",
         
         prizes: [
           { place: "1st Place", amount: "₹600" },
@@ -701,11 +701,11 @@ const App = () => {
       details: {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
-        venue: "Computer Lab 1",
+        venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
         
-        teamSize: "2 members per team",
+        teamSize: "4 members per team",
         
         prizes: [
           { place: "1st Place", amount: "₹1000" },

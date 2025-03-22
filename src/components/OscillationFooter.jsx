@@ -21,7 +21,6 @@ const OscillationFooter = () => {
   const quickLinks = [
     { name: "Home", path: "/" },
     { name: "Events", path: "/events" },
-    { name: "Register", path: "/register" },
     { name: "Sponsors", path: "/sponsors" },
     { name: "Contact", path: "/contact" },
   ];

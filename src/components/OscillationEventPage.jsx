@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const InteractiveBrochureDownload = ({ 
   
 
-  brochurePath = "/files/Oscillation 2k25 Brochure.pdf",
+  brochurePath = "https://drive.google.com/drive/folders/1gn4WE48SBGK_RZ1hmzA686YywSweYb1A?usp=drive_link",
   onError = () => {handleDownloadError}
 }) => {
   const [animationState, setAnimationState] = useState("initial");
@@ -168,7 +168,8 @@ const InteractiveBrochureDownload = ({
       {/* Download Button with interactive effects */}
       <a 
         href={brochurePath} 
-        download="Oscillation 2K25 Brochure.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
         onClick={handleDownloadClick}
         className={`relative w-full bg-gradient-to-r from-purple-600 to-pink-400 text-white font-bold py-4 px-6 rounded-lg overflow-hidden block ${
           isDownloading ? 'pointer-events-none opacity-80' : 'hover:shadow-lg hover:shadow-purple-500/30'

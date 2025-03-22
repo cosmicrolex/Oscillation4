@@ -437,7 +437,19 @@ const HomePage = () => {
                       <div className="w-full md:w-2/3 text-left">
                         <div className="bg-black/30 backdrop-blur-md rounded-2xl p-4 sm:p-6 border border-pink-500/20 shadow-lg shadow-pink-500/10">
                           <p className="text-gray-200 leading-relaxed text-base sm:text-lg md:text-xl font-light tracking-wide" style={{ fontFamily: "'Quicksand', sans-serif" }}>
-                            <span className="font-semibold text-pink-300">Oscillation 2K25</span>, the premier tech event by AI & Data Science, VPPCOEVA, unites <span className="font-medium text-indigo-300">coders, innovators,</span> and tech enthusiasts. Featuring <span className="font-medium text-pink-300">Code Relay 2.0</span>, project reviews, hackathons, and the electrifying <span className="font-medium text-indigo-300">Tech Roast Battle</span>, it challenges participants to excel, collaborate, and showcase their skills. Organized entirely by students, Oscillation 2K25 is the ultimate platform to learn, compete, and innovate.
+                          <span className="font-semibold text-pink-300">Oscillation 2K25</span>, the premier tech event by AI & Data Science, VPPCOEVA, unites <span className="font-medium text-indigo-300">coders, innovators,</span> and tech enthusiasts. Featuring  
+                            <span className="font-medium text-yellow-300"> Code Relay 2.0</span>,  
+                            <span className="font-medium text-yellow-300"> Hackathon</span>,  
+                            <span className="font-medium text-yellow-300"> Valorant</span>,  
+                            <span className="font-medium text-yellow-300"> Treasure Hunt</span>,  
+                            <span className="font-medium text-yellow-300"> Project Presentation</span>,  
+                            <span className="font-medium text-yellow-300"> BGMI</span>,  
+                            <span className="font-medium text-yellow-300"> Carrom Clash</span>,  
+                            <span className="font-medium text-yellow-300"> Code and Pray</span>,  
+                            <span className="font-medium text-yellow-300"> Dumb Charades</span>,  
+                            <span className="font-medium text-yellow-300"> AI Visionary</span>, and  
+                            <span className="font-medium text-yellow-300"> Ludo</span>,  
+                            it challenges participants to excel, collaborate, and showcase their skills. Organized entirely by students, Oscillation 2K25 is the ultimate platform to learn, compete, and innovate.
                           </p>
                         </div>
                         

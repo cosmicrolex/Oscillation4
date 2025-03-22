@@ -5,6 +5,9 @@ import dominos from '..//assets/dominos.png';
 import habhit from '..//assets/habhit.png';
 import smaash from '..//assets/smaash.png';
 import hellenergy from '..//assets/hellenergy.png';
+import mojoco from '..//assets/Mojoco Logo.png';
+import alpha8 from '..//assets/Alpha8 Logo.png';
+import hop from '..//assets/Hop LOGO.png';
 
 
 const SponsorsComponent = () => {
@@ -44,6 +47,27 @@ const SponsorsComponent = () => {
       logo: habhit,
       website: "https://habhit.com/"
     },
+    {
+      id: 6,
+      name: "",
+      tier: "Silver",
+      logo: mojoco, // Replace with actual logo path
+      website: "https://habhit.com/"
+    },
+    {
+      id: 7,
+      name: "",
+      tier: "Silver",
+      logo: hop, // Replace with actual logo path
+      website: "https://habhit.com/product-category/hop-cold-coffee/"
+    },
+    {
+      id: 8,
+      name: "",
+      tier: "Silver",
+      logo: alpha8, // Replace with actual logo path
+      website: "https://habhit.com/"
+    }
     // {
     //   id: 6,
     //   name: "",
