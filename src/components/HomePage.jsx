@@ -166,6 +166,24 @@ const HomePage = () => {
     })
   };
 
+  // Add responsive letter spacing for title
+  useEffect(() => {
+    const handleResize = () => {
+      const letters = document.querySelectorAll('.letter');
+      const letterSpacing = window.innerWidth < 640 ? '-0.05em' : 
+                          window.innerWidth < 768 ? '-0.02em' : 'normal';
+      
+      letters.forEach(letter => {
+        letter.style.letterSpacing = letterSpacing;
+      });
+    };
+    
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Initial call
+    
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   // Creative wave effect for text - works for both mouse and touch
   useEffect(() => {
     if (!textRef.current) return;
@@ -298,8 +316,8 @@ const HomePage = () => {
                       />
                     </motion.div>
                   
-                    {/* Oscillation Title */}
-                    <div className="flex flex-wrap justify-center text-5xl sm:text-7xl md:text-8xl font-extrabold mt-0 sm:mt-0"> {/* Added mt-0 to ensure no top margin on mobile */}
+                    {/* Oscillation Title - FIXED VERSION */}
+                    <div className="flex justify-center whitespace-nowrap text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold mt-0 sm:mt-0">
                       {title.split('').map((letter, i) => (
                         <motion.span
                           key={i}
@@ -318,6 +336,7 @@ const HomePage = () => {
                             filter: `hue-rotate(${i * 8}deg)`,
                             transformOrigin: 'center',
                             fontFamily: "'Orbitron', sans-serif"
+                            // Letter spacing is now handled by the useEffect above
                           }}
                         >
                           {letter}
