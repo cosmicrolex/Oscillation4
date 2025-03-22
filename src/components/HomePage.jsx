@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import TeachersComponent from './TeachersComponent';
 import logo_white from '../assets/logo_white.png';
 import oscillation_logo from '../assets/oscillation_logo.png';
+import IETE from '../assets/iete-logo-white.png';
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -253,7 +254,7 @@ const HomePage = () => {
                     transition={{ duration: 0.8, delay: 0.3 }}
                   >
                     <img 
-                      src={logo_white}
+                      src={IETE}
                       alt="First Logo"
                       className="w-14 h-14 object-contain"
                     />
@@ -279,7 +280,7 @@ const HomePage = () => {
                       className="mr-6 hidden sm:block" // Hide on mobile, show on sm screens and up
                     >
                       <img 
-                        src={logo_white} 
+                        src={IETE} 
                         alt="First Logo" 
                         className="w-24 h-24 object-contain" 
                       />
@@ -502,7 +503,7 @@ const HomePage = () => {
                           {/* Increased contrast and visibility for date section */}
                           <div className="mt-4 sm:mt-6 text-center bg-black/40 p-3 rounded-xl border border-pink-500/30">
                             <p className="text-pink-200 text-xs sm:text-sm mb-1 sm:mb-2">Register before</p>
-                            <p className="text-white font-bold text-lg sm:text-xl">MARCH 15, 2025</p>
+                            <p className="text-white font-bold text-lg sm:text-xl">1st APRIL, 2025</p>
                           </div>
                         </div>
                       </motion.div>

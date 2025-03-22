@@ -59,10 +59,8 @@ const App = () => {
         requirements: "Laptop, charger, valid ID, and pre-installed development tools",
         teamSize: "3-4 members per team",
         prizes: [
-          { place: "1st Place", amount: "₹25,000" },
-          { place: "2nd Place", amount: "₹15,000" },
-          { place: "3rd Place", amount: "₹10,000" },
-          { place: "Best UI/UX", amount: "₹5,000" }
+          {  amount: "₹33,000" },
+          
         ],
         skills: ["Problem Solving", "Web/Mobile Development", "API Integration", "Design Thinking", "Team Collaboration"],
         timeline: [
@@ -122,11 +120,13 @@ const App = () => {
         venue: "Computer Lab 1",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
+        Prize: "1st and 2nd winner would get coupons worth 1200rs",
         teamSize: "2 members per team",
         prizes: [
-          { place: "1st Place", amount: "₹10,000" },
-          { place: "2nd Place", amount: "₹7,000" },
-          { place: "3rd Place", amount: "₹5,000" }
+          { place: "1st Place", amount: "₹1000" },
+          { place: "2nd Place", amount: "₹400" },
+          {place : "1st and 2nd winner would get coupons worth 1200rs"}
+         
         ],
         skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
         timeline: [
@@ -192,13 +192,14 @@ const App = () => {
         time: "11:00 AM - 6:00 PM",
         venue: "E-Sports Arena, CCC Building",
         registrationDeadline: "April 8, 2025",
-        requirements: "Valorant account (minimum level 20), Discord for communication",
+        prize : "1st and 2nd winner would get coupons worth 1200rs",
         teamSize: "5 members per team",
+        
         prizes: [
-          { place: "1st Place", amount: "₹15,000" },
-          { place: "2nd Place", amount: "₹8,000" },
-          { place: "3rd Place", amount: "₹5,000" },
-          { place: "MVP", amount: "₹2,000" }
+          { place: "1st Place", amount: "₹1500" },
+          { place: "2nd Place", amount: "₹500" },
+          {place : "1st and 2nd winner would get coupons worth 1200rs"}
+          
         ],
         skills: ["Team Coordination", "Strategy", "Aim", "Game Sense", "Communication"],
         timeline: [
@@ -257,11 +258,12 @@ const App = () => {
         registrationDeadline: "April 8, 2025",
         requirements: "Valorant account (minimum level 20), Discord for communication",
         teamSize: "5 members per team",
+        Prize : "1st and 2nd winner would get coupons worth 1200rs",
         prizes: [
-          { place: "1st Place", amount: "₹15,000" },
-          { place: "2nd Place", amount: "₹8,000" },
-          { place: "3rd Place", amount: "₹5,000" },
-          { place: "MVP", amount: "₹2,000" }
+          { place: "1st Place", amount: "₹1500" },
+          { place: "2nd Place", amount: "₹500" },
+          {place : "1st and 2nd winner would get coupons worth 1200rs"}
+          
         ],
         skills: ["Team Coordination", "Strategy", "Aim", "Game Sense", "Communication"],
         timeline: [
@@ -319,10 +321,12 @@ const App = () => {
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
         teamSize: "2 members per team",
+        Prize : "1st and 2nd winner would get coupons worth 1200rs",
         prizes: [
-          { place: "1st Place", amount: "₹10,000" },
-          { place: "2nd Place", amount: "₹7,000" },
-          { place: "3rd Place", amount: "₹5,000" }
+          { place: "1st Place", amount: "₹1500" },
+          { place: "2nd Place", amount: "₹500" },
+          {place : "1st and 2nd winner would get coupons worth 1200rs"}
+      
         ],
         skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
         timeline: [
@@ -380,10 +384,13 @@ const App = () => {
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
         teamSize: "2 members per team",
+        
         prizes: [
-          { place: "1st Place", amount: "₹10,000" },
-          { place: "2nd Place", amount: "₹7,000" },
-          { place: "3rd Place", amount: "₹5,000" }
+          { place: "1st Place", amount: "₹1000" },
+          { place: "2nd Place", amount: "₹500" },
+          {place : "1st and 2nd winner would get coupons worth 1200rs"}
+          
+          
         ],
         skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
         timeline: [
@@ -442,10 +449,11 @@ const App = () => {
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
         teamSize: "2 members per team",
+        
         prizes: [
-          { place: "1st Place", amount: "₹10,000" },
-          { place: "2nd Place", amount: "₹7,000" },
-          { place: "3rd Place", amount: "₹5,000" }
+          { place: "1st Place", amount: "₹800" },
+          {place : "1st winner would get coupons worth 1200rs"}
+        
         ],
         skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
         timeline: [
@@ -504,10 +512,12 @@ const App = () => {
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
         teamSize: "2 members per team",
+        
         prizes: [
-          { place: "1st Place", amount: "₹10,000" },
-          { place: "2nd Place", amount: "₹7,000" },
-          { place: "3rd Place", amount: "₹5,000" }
+          { place: "1st Place", amount: "₹500" },
+          { place: "2nd Place", amount: "₹250" },
+          {place : "1st and 2nd winner would get coupons worth 1200rs"}
+          
         ],
         skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
         timeline: [
@@ -566,10 +576,11 @@ const App = () => {
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
         teamSize: "2 members per team",
+        Prize : "1st and 2nd winner would get coupons worth 1200rs",
         prizes: [
-          { place: "1st Place", amount: "₹10,000" },
-          { place: "2nd Place", amount: "₹7,000" },
-          { place: "3rd Place", amount: "₹5,000" }
+          { place: "1st Place", amount: "₹800" },
+          {place : "1st winner would get coupons worth 1200rs"}
+          
         ],
         skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
         timeline: [
@@ -628,10 +639,12 @@ const App = () => {
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
         teamSize: "2 members per team",
+        
         prizes: [
-          { place: "1st Place", amount: "₹10,000" },
-          { place: "2nd Place", amount: "₹7,000" },
-          { place: "3rd Place", amount: "₹5,000" }
+          { place: "1st Place", amount: "₹600" },
+          { place: "2nd Place", amount: "₹300" },
+          {place : "1st and 2nd winner would get coupons worth 1200rs"}
+          
         ],
         skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
         timeline: [
@@ -691,11 +704,15 @@ const App = () => {
         venue: "Computer Lab 1",
         registrationDeadline: "April 5, 2025",
         requirements: "Knowledge of Java/Python/C++",
+        
         teamSize: "2 members per team",
+        
         prizes: [
-          { place: "1st Place", amount: "₹10,000" },
-          { place: "2nd Place", amount: "₹7,000" },
-          { place: "3rd Place", amount: "₹5,000" }
+          { place: "1st Place", amount: "₹1000" },
+          {place : "1st winner would get coupons worth 1200rs"}
+        
+          
+          
         ],
         skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
         timeline: [
@@ -860,8 +877,8 @@ const App = () => {
       {/* Header - Updated with purple theme */}
       <header className="bg-purple-800 text-white py-8">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center animate__animated animate__fadeIn">Tech Fest 2025</h1>
-          <p className="text-xl text-center mt-2 animate__animated animate__fadeIn animate__delay-1s">April 10-20, 2025 • An Immersive Technical Experience</p>
+          <h1 className="text-4xl font-bold text-center animate__animated animate__fadeIn">OSCILLATION 2025</h1>
+          <p className="text-xl text-center mt-2 animate__animated animate__fadeIn animate__delay-1s">April 3rd-4th, 2025 • An Immersive Technical Experience</p>
           
           {/* Featured Event Countdown - Updated with purple theme */}
           {events.find(event => event.featured) && (

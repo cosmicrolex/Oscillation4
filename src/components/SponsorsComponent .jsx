@@ -6,6 +6,7 @@ import habhit from '..//assets/habhit.png';
 import smaash from '..//assets/smaash.png';
 import hellenergy from '..//assets/hellenergy.png';
 
+
 const SponsorsComponent = () => {
   const sponsors = [
     // {
