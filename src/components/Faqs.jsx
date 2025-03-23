@@ -36,7 +36,7 @@ export default function Faqs() {
     },
     {
       question: "What is The Theme of Oscillation?",
-      answer: "Absolutely! High-speed Wi-Fi will be available throughout the venue. We'll also have backup solutions in case of any connectivity issues.",
+      answer: " The theme for Oscillation 2K25 is Robotics, focusing on the impact of automation, AI, and robotics on our future.",
       icon: <HelpCircle className="w-6 h-6" />,
     },
     {
