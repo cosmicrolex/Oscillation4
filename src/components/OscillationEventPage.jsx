@@ -270,7 +270,7 @@ const OscillationEventPage = () => {
     <div className="bg-slate-900 min-h-screen text-white p-4 flex items-center justify-center">
       <div className="max-w-md mx-auto w-full"> 
         <InteractiveBrochureDownload 
-          brochurePath="/public/files/Oscillation 2K25 Brochure.pdf" 
+          brochurePath="/files/Oscillation 2K25 Brochure.pdf" 
           onError={handleDownloadError}
         />
         {errorMsg && (
