@@ -24,12 +24,12 @@ const App = () => {
     {
       id: "hackathon",
       title: "Hackathon",
-      description: "24-hour coding marathon to build innovative solutions for real-world problems.",
+      description: "12-hour coding marathon to build innovative solutions for real-world problems.",
       icon: "fas fa-laptop-code",
       image: hack,
       registrationLink: "https://unstop.com/o/qOCVa2f?lb=8WkQgyPl&utm_medium=Share&utm_source=shortUrl",
       featured: true,
-      eventDate: "2025-04-15T09:00:00", // Set your hackathon date here
+      eventDate: "2025-04-15T10:30:00", // Set your hackathon date here
       coordinators: [
         { 
           name: "Siddhesh Varhadi", 
