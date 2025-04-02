@@ -11,15 +11,15 @@ import codeandpray from '../assets/Code and Pray (1).jpg';
 import dumbcharades from '../assets/Dumb Charades (1).jpg';
 import aivisionary from '../assets/AI Visionary (1).jpg';
 import ludo from '../assets/ludo (1).jpg';
-import siddhesh from '..//assets/siddhesh.jpeg'
-import pranav from '..//assets/panna.png';
-import kshitij from '..//assets/Kshitij.png';
-import vedant from '..//assets/Vedant.png';
-import devesh from '..//assets/Devesh.png';
-import sarthak from '..//assets/sarthak.png';
-import omkar from '..//assets/omkar.png';
-import urvi from '..//assets/Urvi.png';
-import gayatri from '..//assets/gayatri.png';
+// import siddhesh from '..//assets/siddhesh.jpeg'
+// import pranav from '..//assets/panna.png';
+// import kshitij from '..//assets/Kshitij.png';
+// import vedant from '..//assets/Vedant.png';
+// import devesh from '..//assets/Devesh.png';
+// import sarthak from '..//assets/sarthak.png';
+// import omkar from '..//assets/omkar.png';
+// import urvi from '..//assets/Urvi.png';
+// import gayatri from '..//assets/gayatri.png';
 import aditya from '..//assets/aditya.png';
 import chandresh from '..//assets/chandresh.png';
 import jeevika from '..//assets/jeevika.png';
@@ -67,10 +67,10 @@ const App = () => {
       // Custom details for Hackathon
       details: {
         date: "April 3-4, 2025",
-        time: "9:00 AM - 9:00 AM (24 hours)",
-        venue: "Will be Updated on the WhatsApp Group",
+        time: "12:30 Onwards",
+        venue: "Lab 407, 401",
         registrationDeadline: "April 3, 2025",
-        requirements: "Laptop, charger, valid ID, and pre-installed development tools",
+        requirements: "Laptop, charger, valid ID, and pre-installed develo  ent tools",
         teamSize: "3-4 members per team",
         entryFees: "₹300",
         prizes: [
@@ -131,8 +131,8 @@ const App = () => {
       // Custom details for Code Relay 2.0
       details: {
         date: "April 3, 2025",
-        time: "10:00 AM - 2:00 PM",
-        venue: "Will be Updated on the WhatsApp Group",
+        time: "02:00 - 04:00 PM",
+        venue: "Lab 406 A, 406 B",
         registrationDeadline: "April 3, 2025",
         requirements: "Valid ID, Pre-installed Development Tools (Python, JavaScript, C Compilers, and Code Editor), Stable Internet Connection, Team of 3 Participants",
         Prize: "1st and 2nd winner would get coupons worth 1200rs",
@@ -211,8 +211,8 @@ const App = () => {
       // Custom details for Valorant tournament
       details: {
         date: "April 4, 2025",
-        time: "11:00 AM - 6:00 PM",
-        venue: "Will be Updated on the WhatsApp Group",
+        time: "10:00 AM - 01:00 PM",
+        venue: "Lab 101",
         registrationDeadline: "April 3, 2025",
         requirements: "Pre-installed Valorant Game, Stable Internet Connection, Team of 5 Participants",
         prize : "1st and 2nd winner would get coupons worth 1200rs",
@@ -282,7 +282,7 @@ const App = () => {
       // Custom details for Valorant tournament
       details: {
         date: "April 3, 2025",
-        time: "11:00 AM - 6:00 PM",
+        time: "03:00 - 05:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 3, 2025",
         requirements: "Team of 2-4 Participants, Comfortable Footwear, Notebook and Pen, Mobile Phone (if allowed), Map (if provided by organizers)",
@@ -352,7 +352,7 @@ const App = () => {
       // Custom details for Code Relay 2.0
       details: {
         date: "April 3, 2025",
-        time: "10:00 AM - 2:00 PM",
+        time: "10:30 AM - 01:30 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 3, 2025",
         requirements: "Project Prototype or Model, Presentation Materials (Posters, Slides, etc.), Laptop (if needed), Power Supply and Extension Cord, Technical Documentation, Team of 1-4 Participants",
@@ -416,8 +416,8 @@ const App = () => {
       // Custom details for Code Relay 2.0
       details: {
         date: "April 4, 2025",
-        time: "10:00 AM - 2:00 PM",
-        venue: "Will be Updated on the WhatsApp Group",
+        time: "10:00 AM - 01:00 PM",
+        venue: "Lab 401",
         registrationDeadline: "April 3, 2025",
         requirements: "Mobile Phone with BGMI Installed, Stable Internet Connection, Earphones/Headset, Power Bank (if needed), Team of 4 Participants",
         teamSize: "4 members per team",
@@ -481,8 +481,8 @@ const App = () => {
       // Custom details for Code Relay 2.0
       details: {
         date: "April 3, 2025",
-        time: "10:00 AM - 2:00 PM",
-        venue: "Will be Updated on the WhatsApp Group",
+        time: "03:00 - 05:00 PM",
+        venue: "Lab 302",
         registrationDeadline: "April 3, 2025",
         requirements: "Carrom Board (Provided by Organizers), Striker (if personal striker is allowed), Powder for Smooth Gameplay, Team of 1-2 Participants",
         teamSize: "2 members per team",
@@ -544,8 +544,8 @@ const App = () => {
       // Custom details for Code Relay 2.0
       details: {
         date: "April 4, 2025",
-        time: "10:00 AM - 2:00 PM",
-        venue: "Will be Updated on the WhatsApp Group",
+        time: "10:00 AM - 12:00 PM",
+        venue: "Lab 406 A",
         registrationDeadline: "April 3, 2025",
         requirements: "Computer with Pre-installed Code Editor (Provided by Organizers), Stable Internet Connection, Team of 1-2 Participants, Allowed Programming Languages: HTML, CSS, JavaScript, Time Limit for Coding Session",
         teamSize: "1 member per team",
@@ -608,8 +608,8 @@ const App = () => {
       // Custom details for Code Relay 2.0
       details: {
         date: "April 4, 2025",
-        time: "10:00 AM - 2:00 PM",
-        venue: "Will be Updated on the WhatsApp Group",
+        time: "01:00 - 02:00 PM",
+        venue: "Lab 406 A",
         registrationDeadline: "April 3, 2025",
         requirements: "Team of 2-4 Participants, Timer (Provided by Organizers), List of Words/Phrases (Provided by Organizers)",
         teamSize: "3 members per team",
@@ -672,8 +672,8 @@ const App = () => {
       // Custom details for Code Relay 2.0
       details: {
         date: "April 4, 2025",
-        time: "10:00 AM - 2:00 PM",
-        venue: "Will be Updated on the WhatsApp Group",
+        time: "02:00 - 04:00 PM",
+        venue: "Lab 406 B",
         registrationDeadline: "April 3, 2025",
         requirements: "Computer with AI Image Generation and Video Editing Software (Provided by Organizers), Stable Internet Connection, Team of 1-3 Participants, Pre-installed Necessary Plugins and Tools, File Submission in Specified Formats (PNG, MP4, etc.)",
         teamSize: "1 member per team",
@@ -738,7 +738,7 @@ const App = () => {
       // Custom details for Code Relay 2.0
       details: {
         date: "April 4, 2025",
-        time: "10:00 AM - 2:00 PM",
+        time: "02:00 - 04:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
         registrationDeadline: "April 3, 2025",
         requirements: "Ludo Board and Tokens (Provided by Organizers), Dice (Provided by Organizers), Team of 2-4 Participants",

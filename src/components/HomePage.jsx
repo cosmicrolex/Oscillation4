@@ -534,7 +534,7 @@ const HomePage = () => {
                           {/* Increased contrast and visibility for date section */}
                           <div className="mt-4 sm:mt-6 text-center bg-black/40 p-3 rounded-xl border border-pink-500/30">
                             <p className="text-pink-200 text-xs sm:text-sm mb-1 sm:mb-2">Register before</p>
-                            <p className="text-white font-bold text-lg sm:text-xl">1st APRIL, 2025</p>
+                            <p className="text-white font-bold text-lg sm:text-xl">3rd APRIL, 2025</p>
                           </div>
                         </div>
                       </motion.div>

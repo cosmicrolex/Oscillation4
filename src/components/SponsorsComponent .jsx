@@ -7,6 +7,7 @@ import hellenergy from '../assets/hellenergy.png';
 import mojoco from '../assets/Mojoco Logo.png';
 import alpha8 from '../assets/Alpha8 Logo.png';
 import hop from '../assets/Hop LOGO.png';
+import rvtech from '..//assets/RVTech-removebg-preview.png';
 
 const SponsorsComponent = () => {
   const sponsors = [
@@ -55,8 +56,8 @@ const SponsorsComponent = () => {
     {
       id: 8,
       name: "RVTech",
-      logo: hellenergy,
-      website: "https://www.hellenergy.com/in/"
+      logo: rvtech,
+      website: "https://www.rvtechlearn.com"
     },
   ];
 
