@@ -51,7 +51,13 @@ const SponsorsComponent = () => {
       name: "Alpha8",
       logo: alpha8, 
       website: "https://habhit.com/"
-    }
+    },
+    {
+      id: 8,
+      name: "RVTech",
+      logo: hellenergy,
+      website: "https://www.hellenergy.com/in/"
+    },
   ];
 
   // Animation variants

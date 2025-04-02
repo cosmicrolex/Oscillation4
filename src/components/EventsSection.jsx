@@ -16,6 +16,14 @@ import pranav from '..//assets/panna.png';
 import kshitij from '..//assets/Kshitij.png';
 import vedant from '..//assets/Vedant.png';
 import devesh from '..//assets/Devesh.png';
+import sarthak from '..//assets/sarthak.png';
+import omkar from '..//assets/omkar.png';
+import urvi from '..//assets/Urvi.png';
+import gayatri from '..//assets/gayatri.png';
+import aditya from '..//assets/aditya.png';
+import chandresh from '..//assets/chandresh.png';
+import jeevika from '..//assets/jeevika.png';
+
 // import deep from '..//assets/deep.png';
 
 const App = () => {
@@ -32,16 +40,22 @@ const App = () => {
       eventDate: "2025-04-15T10:30:00", // Set your hackathon date here
       coordinators: [
         { 
-          name: "Siddhesh Varhadi", 
-          role: "Co-Ordinator", 
-          image: siddhesh,
-          email: "7900164138"
+          name: "Sejal Dongre", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: ""
         },
         { 
-          name: "Pranav Agarthade", 
-          role: "Co-Ordinator", 
-          image: pranav,
-          email: "8591727736" 
+          name: "Vijay Sharma", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: "9321781905" 
+        },
+        { 
+          name: "Shivam Patel", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: "" 
         }
         // { 
         //   name: "Arjun Mehta", 
@@ -55,23 +69,24 @@ const App = () => {
         date: "April 3-4, 2025",
         time: "9:00 AM - 9:00 AM (24 hours)",
         venue: "Will be Updated on the WhatsApp Group",
-        registrationDeadline: "April 1, 2025",
+        registrationDeadline: "April 3, 2025",
         requirements: "Laptop, charger, valid ID, and pre-installed development tools",
         teamSize: "3-4 members per team",
+        entryFees: "₹300",
         prizes: [
           {  amount: "₹33,000" },
           
         ],
         skills: ["Problem Solving", "Web/Mobile Development", "API Integration", "Design Thinking", "Team Collaboration"],
-        timeline: [
-          { date: "March 1, 2025", event: "Registration Opens" },
-          { date: "April 1, 2025", event: "Registration Closes" },
-          { date: "April 10, 2025", event: "Theme Announcement & Team Confirmation" },
-          { date: "April 15, 2025 9:00 AM", event: "Hackathon Begins" },
-          { date: "April 16, 2025 9:00 AM", event: "Coding Ends" },
-          { date: "April 16, 2025 10:00 AM - 1:00 PM", event: "Project Presentations" },
-          { date: "April 16, 2025 2:00 PM", event: "Results & Prize Distribution" }
-        ],
+        // timeline: [
+        //   { date: "March 1, 2025", event: "Registration Opens" },
+        //   { date: "April 1, 2025", event: "Registration Closes" },
+        //   { date: "April 10, 2025", event: "Theme Announcement & Team Confirmation" },
+        //   { date: "April 15, 2025 9:00 AM", event: "Hackathon Begins" },
+        //   { date: "April 16, 2025 9:00 AM", event: "Coding Ends" },
+        //   { date: "April 16, 2025 10:00 AM - 1:00 PM", event: "Project Presentations" },
+        //   { date: "April 16, 2025 2:00 PM", event: "Results & Prize Distribution" }
+        // ],
         // contacts: {
         //   phone: "+91 9876543210",
         //   email: "aisac.vpp@gmail.com",
@@ -95,16 +110,16 @@ const App = () => {
       registrationLink: "https://forms.gle/dsuTCD5K9r3Jt7T19",
       coordinators: [
         { 
-          name: "Aryan Fursule", 
-          role: "Co-Ordinator", 
+          name: "Bhavesh Pathak", 
+          role: "Event Head", 
           image: "/api/placeholder/150/150",
-          email: "9321618971"
+          email: "9969408674"
         },
         { 
-          name: "Deep Mohite", 
-          role: "Technical Support", 
+          name: "Nipun Mahajan", 
+          role: "Event Head", 
           image: "/api/placeholder/150/150",
-          email: "9987999748" 
+          email: "8329188148" 
         },
         // { 
         //   name: "Siddhesh Varhadi", 
@@ -118,25 +133,26 @@ const App = () => {
         date: "April 3, 2025",
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
-        registrationDeadline: "April 5, 2025",
-        requirements: "Knowledge of Java/Python/C++",
+        registrationDeadline: "April 3, 2025",
+        requirements: "Valid ID, Pre-installed Development Tools (Python, JavaScript, C Compilers, and Code Editor), Stable Internet Connection, Team of 3 Participants",
         Prize: "1st and 2nd winner would get coupons worth 1200rs",
         teamSize: "2-4 members per team",
+        entryFees: "₹150",
         prizes: [
           { place: "1st Place", amount: "₹1000" },
           { place: "2nd Place", amount: "₹400" },
           {place : "1st and 2nd winner would get coupons worth 1200rs"}
          
         ],
-        skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
-        timeline: [
-          { date: "March 20, 2025", event: "Registration Opens" },
-          { date: "April 5, 2025", event: "Registration Closes" },
-          { date: "April 8, 2025", event: "Selected Teams Notification" },
-          { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
-          { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
-          { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
-        ],
+        "skills": ["Problem Solving", "Python/JavaScript/C Programming", "Code Comprehension", "Debugging", "Adaptive Thinking", "Team Collaboration"],
+        // timeline: [
+        //   { date: "March 20, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 3, 2025", event: "Selected Teams Notification" },
+        //   { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
+        //   { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
+        //   { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543211",
           email: "aisac.vpp@gmail.com",
@@ -168,17 +184,23 @@ const App = () => {
       registrationLink: "https://forms.gle/neyAbdGGuNa7BKHg8",
       coordinators: [
         { 
-          name: "Suyash Lohakare", 
-          role: "Co-Ordinator", 
+          name: "Bhavesh Pathak", 
+          role: "Event Head", 
           image: "/api/placeholder/150/150",
-          email: "9870219100"
+          email: "9969408674"
         },
         { 
-          name: "Sarthak Labdhe", 
-          role: "Co-Ordinator", 
+          name: "Nipun Mahajan", 
+          role: "Event Head", 
           image: "/api/placeholder/150/150",
-          email: "9324341287" 
-        },
+          email: "8329188148"
+        }
+        // { 
+        //   name: "Sarthak Labdhe", 
+        //   role: "Co-Ordinator", 
+        //   image: "/api/placeholder/150/150",
+        //   email: "9324341287" 
+        // },
         // { 
         //   name: "Aditya Joshi", 
         //   role: "Event Manager", 
@@ -190,26 +212,27 @@ const App = () => {
       details: {
         date: "April 4, 2025",
         time: "11:00 AM - 6:00 PM",
-        venue: "E-Sports Arena, CCC Building",
-        registrationDeadline: "April 8, 2025",
+        venue: "Will be Updated on the WhatsApp Group",
+        registrationDeadline: "April 3, 2025",
+        requirements: "Pre-installed Valorant Game, Stable Internet Connection, Team of 5 Participants",
         prize : "1st and 2nd winner would get coupons worth 1200rs",
         teamSize: "5 members per team",
-        
+        entryFees: "₹300",
         prizes: [
           { place: "1st Place", amount: "₹1500" },
           { place: "2nd Place", amount: "₹500" },
           {place : "1st and 2nd winner would get coupons worth 1200rs"}
           
         ],
-        skills: ["Team Coordination", "Strategy", "Aim", "Game Sense", "Communication"],
-        timeline: [
-          { date: "March 15, 2025", event: "Registration Opens" },
-          { date: "April 8, 2025", event: "Registration Closes" },
-          { date: "April 10, 2025", event: "Team Seeding Announcement" },
-          { date: "April 12, 2025", event: "Group Stage Matches" },
-          { date: "April 13, 2025", event: "Quarter Finals, Semi Finals, and Finals" },
-          { date: "April 13, 2025", event: "Prize Distribution" }
-        ],
+        "skills": ["Aim Precision", "Game Sense", "Map Awareness", "Team Communication", "Agent Abilities Mastery", "Crosshair Placement", "Economy Management", "Clutch Factor", "Reaction Time", "Strategic Thinking"],
+        // timeline: [
+        //   { date: "March 15, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 10, 2025", event: "Team Seeding Announcement" },
+        //   { date: "April 12, 2025", event: "Group Stage Matches" },
+        //   { date: "April 13, 2025", event: "Quarter Finals, Semi Finals, and Finals" },
+        //   { date: "April 13, 2025", event: "Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543212",
           email: "aisac.vpp@gmail.com",
@@ -232,17 +255,23 @@ const App = () => {
       registrationLink: "https://forms.gle/VRF3mgaMZWJrwhHV6",
       coordinators: [
         { 
-          name: "Devesh Amberkar", 
-          role: "Co-Ordinator", 
-          image: devesh,
-          email: "9898153919"
+          name: "Parth Chaugule", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: ""
         },
         { 
-          name: "Vedant Kadam", 
-          role: "Co-Ordinator", 
-          image: vedant,
-          email: "84220 28339" 
-        },
+          name: "Chandresh Alwala", 
+          role: "Event Head", 
+          image: chandresh,
+          email: "9321489932" 
+        }
+        // { 
+        //   name: "Suyash Lohakare", 
+        //   role: "Co-Ordinator", 
+        //   image: "/api/placeholder/150/150",
+        //   email: "9870219100"
+        // }
         // { 
         //   name: "Aditya Joshi", 
         //   role: "Event Manager", 
@@ -254,26 +283,27 @@ const App = () => {
       details: {
         date: "April 3, 2025",
         time: "11:00 AM - 6:00 PM",
-        venue: "E-Sports Arena, CCC Building",
-        registrationDeadline: "April 8, 2025",
-        requirements: "",
+        venue: "Will be Updated on the WhatsApp Group",
+        registrationDeadline: "April 3, 2025",
+        requirements: "Team of 2-4 Participants, Comfortable Footwear, Notebook and Pen, Mobile Phone (if allowed), Map (if provided by organizers)",
         teamSize: "4 members per team",
         Prize : "1st and 2nd winner would get coupons worth 1200rs",
+        entryFees: "₹200",
         prizes: [
           { place: "1st Place", amount: "₹1500" },
           { place: "2nd Place", amount: "₹500" },
           {place : "1st and 2nd winner would get coupons worth 1200rs"}
           
         ],
-        skills: ["Team Coordination", "Strategy", "Aim", "Game Sense", "Communication"],
-        timeline: [
-          { date: "March 15, 2025", event: "Registration Opens" },
-          { date: "April 8, 2025", event: "Registration Closes" },
-          { date: "April 10, 2025", event: "Team Seeding Announcement" },
-          { date: "April 12, 2025", event: "Group Stage Matches" },
-          { date: "April 13, 2025", event: "Quarter Finals, Semi Finals, and Finals" },
-          { date: "April 13, 2025", event: "Prize Distribution" }
-        ],
+        "skills": ["Problem Solving", "Critical Thinking", "Team Collaboration", "Clue Interpretation", "Navigation Skills", "Time Management", "Attention to Detail", "Decision Making", "Adaptability", "Logical Reasoning"],
+        // timeline: [
+        //   { date: "March 15, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 10, 2025", event: "Team Seeding Announcement" },
+        //   { date: "April 12, 2025", event: "Group Stage Matches" },
+        //   { date: "April 13, 2025", event: "Quarter Finals, Semi Finals, and Finals" },
+        //   { date: "April 13, 2025", event: "Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543212",
           email: "aisac.vpp@gmail.com",
@@ -295,17 +325,23 @@ const App = () => {
       registrationLink: "https://forms.gle/rvRVM6ms1QtwZZFy5",
       coordinators: [
         { 
-          name: "Kshitij Tapekar", 
-          role: "Co-Ordinator", 
-          image: kshitij,
-          email: "7700021900"
+          name: "Nimesh Mali", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: ""
         },
         { 
-          name: "Sarthak Labdhe", 
-          role: "Co-Ordinator", 
+          name: "Karthikeya", 
+          role: "Event Head", 
           image: "/api/placeholder/150/150",
-          email: "9324341287" 
+          email: "" 
         },
+        { 
+          name: "Dattaram", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: "" 
+        }
         // { 
         //   name: "Siddhesh Varhadi", 
         //   role: "Event Manager", 
@@ -318,25 +354,26 @@ const App = () => {
         date: "April 3, 2025",
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
-        registrationDeadline: "April 5, 2025",
-        requirements: "",
+        registrationDeadline: "April 3, 2025",
+        requirements: "Project Prototype or Model, Presentation Materials (Posters, Slides, etc.), Laptop (if needed), Power Supply and Extension Cord, Technical Documentation, Team of 1-4 Participants",
         teamSize: "4 members per team",
         Prize : "1st and 2nd winner would get coupons worth 1200rs",
+        entryFees: "Free",
         prizes: [
           { place: "1st Place", amount: "₹1500" },
           { place: "2nd Place", amount: "₹500" },
           {place : "1st and 2nd winner would get coupons worth 1200rs"}
       
         ],
-        skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
-        timeline: [
-          { date: "March 20, 2025", event: "Registration Opens" },
-          { date: "April 5, 2025", event: "Registration Closes" },
-          { date: "April 8, 2025", event: "Selected Teams Notification" },
-          { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
-          { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
-          { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
-        ],
+        "skills": ["Public Speaking", "Presentation Skills", "Technical Knowledge", "Problem Solving", "Creativity", "Design Thinking", "Time Management", "Team Collaboration", "Critical Thinking", "Audience Engagement"],
+        // timeline: [
+        //   { date: "March 20, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 3, 2025", event: "Selected Teams Notification" },
+        //   { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
+        //   { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
+        //   { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543211",
           email: "aisac.vpp@gmail.com",
@@ -358,16 +395,16 @@ const App = () => {
       registrationLink: "https://forms.gle/jLp2Z7BC4fPhYddy9",
       coordinators: [
         { 
-          name: "Siddhesh Varhadi", 
-          role: "Co-Ordinator", 
-          image: siddhesh,
-          email: "7900164138"
+          name: "Chandresh Alwala", 
+          role: "Event Head", 
+          image: chandresh,
+          email: "9321489932"
         },
         { 
-          name: "Pranav Agarthade", 
-          role: "Co-Ordinator", 
-          image: pranav,
-          email: "8591727736" 
+          name: "Parth Chaugule", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: "" 
         },
         // { 
         //   name: "Siddhesh Varhadi", 
@@ -381,10 +418,10 @@ const App = () => {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
-        registrationDeadline: "April 5, 2025",
-        requirements: "",
+        registrationDeadline: "April 3, 2025",
+        requirements: "Mobile Phone with BGMI Installed, Stable Internet Connection, Earphones/Headset, Power Bank (if needed), Team of 4 Participants",
         teamSize: "4 members per team",
-        
+        entryFees: "₹200",
         prizes: [
           { place: "1st Place", amount: "₹1000" },
           { place: "2nd Place", amount: "₹500" },
@@ -392,15 +429,15 @@ const App = () => {
           
           
         ],
-        skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
-        timeline: [
-          { date: "March 20, 2025", event: "Registration Opens" },
-          { date: "April 5, 2025", event: "Registration Closes" },
-          { date: "April 8, 2025", event: "Selected Teams Notification" },
-          { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
-          { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
-          { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
-        ],
+        "skills": ["Aim Precision", "Map Awareness", "Survival Skills", "Team Communication", "Weapon Mastery", "Strategic Thinking", "Loot Management", "Zone Prediction", "Quick Reflexes", "Decision Making"],
+        // timeline: [
+        //   { date: "March 20, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 3, 2025", event: "Selected Teams Notification" },
+        //   { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
+        //   { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
+        //   { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543211",
           email: "aisac.vpp@gmail.com",
@@ -423,15 +460,15 @@ const App = () => {
       registrationLink: "https://forms.gle/xXV4sLuk3vT2rrgi6",
       coordinators: [
         { 
-          name: "Siddhesh Varhadi", 
-          role: "Co-Ordinator", 
-          image: siddhesh,
-          email: "7900164138"
+          name: "Aditya Khutale", 
+          role: "Event Head", 
+          image: aditya,
+          email: "9321999456"
         },
         { 
-          name: "Pranav Agarthade", 
-          role: "Co-Ordinator", 
-          image: pranav,
+          name: "Jeevika Kambli", 
+          role: "Event Head", 
+          image: jeevika,
           email: "8591727736" 
         },
         // { 
@@ -446,24 +483,24 @@ const App = () => {
         date: "April 3, 2025",
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
-        registrationDeadline: "April 5, 2025",
-        requirements: "",
+        registrationDeadline: "April 3, 2025",
+        requirements: "Carrom Board (Provided by Organizers), Striker (if personal striker is allowed), Powder for Smooth Gameplay, Team of 1-2 Participants",
         teamSize: "2 members per team",
-        
+        entryFees: "₹100",
         prizes: [
           { place: "1st Place", amount: "₹800" },
           {place : "1st winner would get coupons worth 1200rs"}
         
         ],
-        skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
-        timeline: [
-          { date: "March 20, 2025", event: "Registration Opens" },
-          { date: "April 5, 2025", event: "Registration Closes" },
-          { date: "April 8, 2025", event: "Selected Teams Notification" },
-          { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
-          { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
-          { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
-        ],
+        "skills": ["Striking Accuracy", "Angle Calculation", "Board Control", "Strategic Thinking", "Finger Dexterity", "Shot Precision", "Defensive Play", "Focus and Concentration", "Rebound Techniques", "Decision Making"],
+        // timeline: [
+        //   { date: "March 20, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 3, 2025", event: "Selected Teams Notification" },
+        //   { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
+        //   { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
+        //   { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543211",
           email: "aisac.vpp@gmail.com",
@@ -486,16 +523,16 @@ const App = () => {
       registrationLink: "https://forms.gle/HekrvhzAaQZLV8Jv7",
       coordinators: [
         { 
-          name: "Omkar Shingote", 
-          role: "Co-Ordinator", 
+          name: "Shantanu Bhukan", 
+          role: "Event Head", 
           image: "/api/placeholder/150/150",
-          email: "9594231594"
+          email: ""
         },
         { 
-          name: "Urvi Turbekar", 
-          role: "Co-Ordinator", 
+          name: "Prasanna", 
+          role: "Event Head", 
           image: "/api/placeholder/150/150",
-          email: "7738612080" 
+          email: "" 
         },
         // { 
         //   name: "Siddhesh Varhadi", 
@@ -509,25 +546,25 @@ const App = () => {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
-        registrationDeadline: "April 5, 2025",
-        requirements: "",
+        registrationDeadline: "April 3, 2025",
+        requirements: "Computer with Pre-installed Code Editor (Provided by Organizers), Stable Internet Connection, Team of 1-2 Participants, Allowed Programming Languages: HTML, CSS, JavaScript, Time Limit for Coding Session",
         teamSize: "1 member per team",
-        
+        entryFees: "₹50",
         prizes: [
           { place: "1st Place", amount: "₹500" },
           { place: "2nd Place", amount: "₹250" },
           {place : "1st and 2nd winner would get coupons worth 1200rs"}
           
         ],
-        skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
-        timeline: [
-          { date: "March 20, 2025", event: "Registration Opens" },
-          { date: "April 5, 2025", event: "Registration Closes" },
-          { date: "April 8, 2025", event: "Selected Teams Notification" },
-          { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
-          { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
-          { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
-        ],
+        "skills": ["HTML/CSS/JavaScript Proficiency", "Code Accuracy", "Debugging Without Execution", "Logical Thinking", "Attention to Detail", "Memory Retention", "Problem Solving", "Time Management", "Code Structuring", "Adaptive Thinking"],
+        // timeline: [
+        //   { date: "March 20, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 3, 2025", event: "Selected Teams Notification" },
+        //   { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
+        //   { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
+        //   { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543211",
           email: "aisac.vpp@gmail.com",
@@ -550,16 +587,16 @@ const App = () => {
       registrationLink: "https://forms.gle/mEgy3na9CngqqKFw5",
       coordinators: [
         { 
-          name: "Siddhesh Varhadi", 
-          role: "Co-Ordinator", 
-          image: siddhesh,
-          email: "7900164138"
+          name: "Aditya Khutale", 
+          role: "Event Head", 
+          image: aditya,
+          email: "9321999456"
         },
         { 
-          name: "Pranav Agarthade", 
-          role: "Co-Ordinator", 
-          image: pranav,
-          email: "8591727736" 
+          name: "Suraj Chavan", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: "" 
         },
         // { 
         //   name: "Siddhesh Varhadi", 
@@ -573,24 +610,25 @@ const App = () => {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
-        registrationDeadline: "April 5, 2025",
-        requirements: "",
+        registrationDeadline: "April 3, 2025",
+        requirements: "Team of 2-4 Participants, Timer (Provided by Organizers), List of Words/Phrases (Provided by Organizers)",
         teamSize: "3 members per team",
         Prize : "1st and 2nd winner would get coupons worth 1200rs",
+        entryFees: "₹150",
         prizes: [
           { place: "1st Place", amount: "₹800" },
           {place : "1st winner would get coupons worth 1200rs"}
           
         ],
-        skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
-        timeline: [
-          { date: "March 20, 2025", event: "Registration Opens" },
-          { date: "April 5, 2025", event: "Registration Closes" },
-          { date: "April 8, 2025", event: "Selected Teams Notification" },
-          { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
-          { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
-          { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
-        ],
+        "skills": ["Non-Verbal Communication", "Acting Skills", "Quick Thinking", "Team Collaboration", "Creativity", "Gesture Interpretation", "Time Management", "Facial Expressions", "Adaptability", "Observation Skills"],
+        // timeline: [
+        //   { date: "March 20, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 3, 2025", event: "Selected Teams Notification" },
+        //   { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
+        //   { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
+        //   { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543211",
           email: "aisac.vpp@gmail.com",
@@ -613,16 +651,16 @@ const App = () => {
       registrationLink: "https://forms.gle/kscpDreUV9N8EK4cA",
       coordinators: [
         { 
-          name: "Siddhesh Varhadi", 
-          role: "Co-Ordinator", 
-          image: siddhesh,
-          email: "7900164138"
+          name: "Shashank Gupta", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: ""
         },
         { 
-          name: "Pranav Agarthade", 
-          role: "Co-Ordinator", 
-          image: pranav,
-          email: "8591727736" 
+          name: "Krutika", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: "" 
         },
         // { 
         //   name: "Siddhesh Varhadi", 
@@ -636,25 +674,25 @@ const App = () => {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
-        registrationDeadline: "April 5, 2025",
-        requirements: "",
+        registrationDeadline: "April 3, 2025",
+        requirements: "Computer with AI Image Generation and Video Editing Software (Provided by Organizers), Stable Internet Connection, Team of 1-3 Participants, Pre-installed Necessary Plugins and Tools, File Submission in Specified Formats (PNG, MP4, etc.)",
         teamSize: "1 member per team",
-        
+        entryFees: "₹50",
         prizes: [
           { place: "1st Place", amount: "₹600" },
           { place: "2nd Place", amount: "₹300" },
           {place : "1st and 2nd winner would get coupons worth 1200rs"}
           
         ],
-        skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
-        timeline: [
-          { date: "March 20, 2025", event: "Registration Opens" },
-          { date: "April 5, 2025", event: "Registration Closes" },
-          { date: "April 8, 2025", event: "Selected Teams Notification" },
-          { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
-          { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
-          { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
-        ],
+        "skills": ["AI Image Generation", "Video Editing", "Creative Thinking", "Storytelling", "Theme Interpretation", "Time Management", "Technical Execution", "Attention to Detail", "Ethical AI Usage", "File Format Compliance"],
+        // timeline: [
+        //   { date: "March 20, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 3, 2025", event: "Selected Teams Notification" },
+        //   { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
+        //   { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
+        //   { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543211",
           email: "aisac.vpp@gmail.com",
@@ -679,16 +717,16 @@ const App = () => {
       registrationLink: "https://forms.gle/oSL8hcTSMNp3JHkR9",
       coordinators: [
         { 
-          name: "Siddhesh Varhadi", 
-          role: "Co-Ordinator", 
-          image: siddhesh,
-          email: "7900164138"
+          name: "Karthikeya T", 
+          role: "Event Head", 
+          image: "/api/placeholder/150/150",
+          email: ""
         },
         { 
-          name: "Pranav Agarthade", 
-          role: "Co-Ordinator", 
-          image: pranav,
-          email: "8591727736" 
+          name: "Aditya Khutale", 
+          role: "Event Head", 
+          image: aditya,
+          email: "9321999456" 
         },
         // { 
         //   name: "Siddhesh Varhadi", 
@@ -702,27 +740,23 @@ const App = () => {
         date: "April 4, 2025",
         time: "10:00 AM - 2:00 PM",
         venue: "Will be Updated on the WhatsApp Group",
-        registrationDeadline: "April 5, 2025",
-        requirements: "",
-        
+        registrationDeadline: "April 3, 2025",
+        requirements: "Ludo Board and Tokens (Provided by Organizers), Dice (Provided by Organizers), Team of 2-4 Participants",
+        entryFees: "₹200",
         teamSize: "4 members per team",
-        
         prizes: [
           { place: "1st Place", amount: "₹1000" },
           {place : "1st winner would get coupons worth 1200rs"}
-        
-          
-          
         ],
-        skills: ["Debugging", "Problem Solving", "Algorithms", "Code Optimization", "Time Management"],
-        timeline: [
-          { date: "March 20, 2025", event: "Registration Opens" },
-          { date: "April 5, 2025", event: "Registration Closes" },
-          { date: "April 8, 2025", event: "Selected Teams Notification" },
-          { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
-          { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
-          { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
-        ],
+        "skills": ["Strategic Thinking", "Probability Assessment", "Decision Making", "Risk Management", "Patience", "Adaptability", "Board Awareness", "Turn Planning", "Opponent Analysis", "Team Collaboration"],
+        // timeline: [
+        //   { date: "March 20, 2025", event: "Registration Opens" },
+        //   { date: "April 3, 2025", event: "Registration Closes" },
+        //   { date: "April 3, 2025", event: "Selected Teams Notification" },
+        //   { date: "April 10, 2025 10:00 AM", event: "Round 1: Bug Hunt" },
+        //   { date: "April 10, 2025 12:00 PM", event: "Round 2: Code Relay" },
+        //   { date: "April 10, 2025 2:00 PM", event: "Results & Prize Distribution" }
+        // ],
         contacts: {
           phone: "+91 9876543211",
           email: "aisac.vpp@gmail.com",
@@ -835,7 +869,7 @@ const App = () => {
   useEffect(() => {
     if (isModalOpen) {
       const handleScroll = () => {
-        const sections = ['event-details', 'prize-pool', 'rules', 'timeline'];
+        const sections = ['event-details', 'prize-pool', 'rules'];
         
         for (let section of sections) {
           const element = document.getElementById(section);
@@ -1056,16 +1090,6 @@ const App = () => {
                 >
                   Rules
                 </a>
-                <a 
-                  href="#timeline" 
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById('timeline').scrollIntoView({ behavior: 'smooth' });
-                  }}
-                  className={`text-${activeSection === 'timeline' ? 'purple-800 font-bold' : 'purple-600'} hover:text-purple-800 transition-all px-2 py-1 rounded ${activeSection === 'timeline' ? 'border-b-2 border-purple-800' : ''}`}
-                >
-                  Timeline
-                </a>
                 {/* <a 
                   href="#contacts" 
                   onClick={(e) => {
@@ -1091,11 +1115,12 @@ const App = () => {
                   <p className="text-gray-700 mb-1"><span className="font-semibold">Registration Deadline:</span> {selectedEvent.details.registrationDeadline}</p>
                   <p className="text-gray-700 mb-1"><span className="font-semibold">Team Size:</span> {selectedEvent.details.teamSize}</p>
                   <p className="text-gray-700 mb-1"><span className="font-semibold">Requirements:</span> {selectedEvent.details.requirements}</p>
+                  <p className="text-gray-700 mb-1"><span className="font-semibold">Entry Fees:</span> {selectedEvent.details.entryFees}</p>
                 </div>
                 
                 {/* Coordinators Section */}
                 <div>
-                  <h4 className="text-xl font-bold mb-3 text-purple-800">Event Coordinators</h4>
+                  <h4 className="text-xl font-bold mb-3 text-purple-800">Event Heads</h4>
                   <div className="flex flex-wrap gap-4">
                     {selectedEvent.coordinators.map((coordinator, index) => (
                       <div 
@@ -1168,29 +1193,6 @@ const App = () => {
               </div>
               
               {/* Timeline Section */}
-              <div id="timeline" className="mb-6 pt-4 animate__animated animate__fadeIn">
-                <h4 className="text-xl font-bold mb-3 text-purple-800">Event Timeline</h4>
-                <div className="relative">
-                  {/* Timeline line */}
-                  <div className="absolute left-9 top-0 h-full w-0.5 bg-purple-200"></div>
-                  
-                  {/* Timeline items */}
-                  {selectedEvent.details.timeline.map((item, index) => (
-                    <div 
-                      key={index} 
-                      className="relative pl-20 pb-6 animate__animated animate__fadeInLeft"
-                      style={{ animationDelay: `${index * 0.2}s` }}
-                    >
-                      {/* Timeline dot */}
-                      <div className="absolute left-7 top-1 w-5 h-5 bg-purple-600 border-4 border-purple-100 rounded-full"></div>
-                      <p className="absolute left-0 top-0 text-sm text-purple-800 font-semibold">{item.date.split(" ")[0]}</p>
-                      <div className="bg-purple-50 p-3 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                        <p className="text-gray-700">{item.event}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
               
               {/* Contact Information */}
               {/* <div id="contacts" className="mb-6 pt-4 animate__animated animate__fadeIn">
