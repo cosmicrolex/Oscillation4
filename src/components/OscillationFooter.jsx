@@ -27,8 +27,8 @@ const OscillationFooter = () => {
 
   // Social links with Instagram, Extra Instagram, and Unstop (using logo link)
   const socialLinks = [
-    { name: '@oscillation_2025', url: 'https://instagram.com', logo: insta },
-    { name: '@aisac_vppcoe', url: 'https://instagram.com/extraaccount', logo: insta },
+    { name: '@oscillation_2025', url: 'https://www.instagram.com/oscillation_2025/', logo: insta },
+    { name: '@aisac_vppcoe', url: 'https://www.instagram.com/aisac_vppcoe/', logo: insta },
     { name: 'Unstop', url: 'https://unstop.com/o/qOCVa2f?lb=8WkQgyPl&utm_medium=Share&utm_source=shortUrl', logo: unstop },  // Unstop logo URL used
   ];
 
